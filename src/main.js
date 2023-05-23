@@ -42,4 +42,4 @@ const valorDaContaDaPizza = parseFloat(prompt("Digite o valor da conta da mesa."
 const numeroDePessoas = parseFloat(prompt("digite o número de pessoas que irão dividir a Conta."));
 const valorParaCadaCliente = valorDaContaDaPizza / numeroDePessoas;
 const resultado3 = document.getElementById("resultado3");
-resultado3.innerHTML = ("O Valor para cada cliente é de R$ " + valorParaCadaCliente.toFixed(2) + ".");
+resultado3.innerHTML = `Obrigado por preferirem nossa Pizzaria.<br> O <strong>valor total</strong> da conta foi de ${valorDaContaDaPizza.toFixed(2)},<br> mas o valor para cada <strong>cliente</strong> é de R$ ${valorParaCadaCliente.toFixed(2)}.`;
