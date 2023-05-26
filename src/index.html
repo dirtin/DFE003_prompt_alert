@@ -1,26 +1,48 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="./style.css" />
-   
-    
-  </head>
-  <header></header>
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="./style.css" />
 
-  <body>
-    
-    <h2>exercício 01</h2>
-    <div id="resultado1" class="neon-button"></div>
+  <style>
+    .centered-button {
+      display: flex;
+      justify-content: center;
+      margin-top: 20px;
+    }
 
-    <h2>exercício 02</h2>
-    <div id="resultado2" class="neon-button"></div> 
+    .styled-button {
+      display: inline-block;
+      padding: 12px 24px;
+      background-color: #1e90ff;
+      color: #fff;
+      font-size: 18px;
+      font-weight: bold;
+      border: none;
+      border-radius: 4px;
+      text-decoration: none;
+      transition: background-color 0.3s ease;
+    }
 
-    <h2>exercício 03</h2>
-    <div id="resultado3" class="neon-button"></div>
-    
-  </body>
+    .styled-button:hover {
+      background-color: #005b96;
+    }
+  </style>
+</head>
+
+<body>
+  <h2>exercício 01</h2>
+  <div id="resultado1" class="neon-button"></div>
+
+  <h2>exercício 02</h2>
+  <div id="resultado2" class="neon-button"></div> 
+
+  <div class="centered-button">
+    <a href="./pasta/pizzaria.html" class="styled-button">Ir para a Pizzaria</a>
+  </div>
+
   <script src="./main.js"></script>
+</body>
 </html>

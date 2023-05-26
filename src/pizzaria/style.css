@@ -1,0 +1,116 @@
+/* Estilos gerais */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+    background-image: url(https://www.pizzaprime.com.br/wp-content/uploads/2019/10/massa-de-pizza.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+  }
+  
+  .container {
+    max-width: 960px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  h1 {
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.4);
+    color: hsl(0, 0%, 100%);
+    background: linear-gradient(to right, #e88300, #005b96);
+    padding: 10px 20px;
+    border-radius: 5px;
+    width: 8cm;
+    margin: 0 auto;
+    text-align: center;
+  }
+  
+  h2 {
+    font-size: 18px;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.4);
+        width: 8cm;
+    margin: 0 auto;
+    text-align: center;
+  }
+  
+  /* Estilo para o endereço */
+  .address {
+    font-size: 12px;
+    color: #fbf8f8;
+    text-align: center;
+    margin-top: 10px;
+  }
+  
+  /* Estilos da conta */
+  .bill {
+    background: linear-gradient(to bottom, #00a8e8, #005b96);
+    border-radius: 5px;
+    padding: 20px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    margin: 0 auto;
+    width: 8cm
+    ;
+    color: #fff;
+  }
+  
+  .bill-header {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .bill-items {
+    margin-bottom: 20px;
+  }
+  
+ 
+/* Alinhar números à direita */
+.bill-item {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+    align-items: flex-start;
+  }
+  
+  .bill-item span:last-child {
+    text-align: right;
+  }
+  .bill-item {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+    align-items: flex-start;
+  }
+  
+  .bill-item span:first-child {
+    text-align: left;
+  }
+  
+  .bill-item span:last-child {
+    text-align: right;
+  }
+  
+  
+  .bill-total {
+    display: flex;
+    justify-content: space-between;
+    font-weight: bold;
+  }
+  
+  /* Estilos dos botões */
+  .btn-container {
+    display: flex;
+    justify-content: center;
+  }
+  
+  .btn {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #1e90ff;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+  }
+  
